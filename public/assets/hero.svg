@@ -1,0 +1,65 @@
+<svg width="960" height="1080" viewBox="0 0 960 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="60" x2="840" y2="1020" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DFF6F7"/>
+      <stop offset="1" stop-color="#FFF6EE"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="190" y1="180" x2="760" y2="930" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F3FAFB"/>
+    </linearGradient>
+    <linearGradient id="water" x1="230" y1="620" x2="730" y2="850" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8FD9E1"/>
+      <stop offset="1" stop-color="#5BBCC5"/>
+    </linearGradient>
+    <linearGradient id="fur" x1="300" y1="250" x2="660" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7D8B5"/>
+      <stop offset="1" stop-color="#E6B990"/>
+    </linearGradient>
+    <filter id="shadow" x="92" y="120" width="776" height="856" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#15313B" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="960" height="1080" rx="40" fill="url(#bg)"/>
+  <circle cx="744" cy="174" r="90" fill="#F6D5C8"/>
+  <circle cx="186" cy="236" r="54" fill="#D5EFF2"/>
+  <circle cx="158" cy="884" r="70" fill="#F7E1D9"/>
+  <g filter="url(#shadow)">
+    <rect x="128" y="136" width="704" height="808" rx="42" fill="url(#panel)"/>
+  </g>
+  <rect x="202" y="190" width="556" height="24" rx="12" fill="#D5E7EA"/>
+  <rect x="202" y="228" width="188" height="12" rx="6" fill="#BED6DA"/>
+  <rect x="586" y="228" width="172" height="12" rx="6" fill="#BED6DA"/>
+  <rect x="188" y="286" width="584" height="12" rx="6" fill="#E2ECEE"/>
+  <rect x="188" y="318" width="346" height="12" rx="6" fill="#E2ECEE"/>
+  <g>
+    <rect x="214" y="370" width="532" height="370" rx="32" fill="#EDF7F8"/>
+    <ellipse cx="480" cy="700" rx="244" ry="98" fill="#D7EEF1"/>
+    <ellipse cx="480" cy="680" rx="216" ry="78" fill="url(#water)"/>
+    <path d="M330 606C330 558 369 520 417 520H543C591 520 630 558 630 606V650C630 700 587 742 536 742H424C373 742 330 700 330 650V606Z" fill="url(#fur)"/>
+    <ellipse cx="405" cy="506" rx="42" ry="52" fill="#E3AD81"/>
+    <ellipse cx="555" cy="506" rx="42" ry="52" fill="#E3AD81"/>
+    <ellipse cx="442" cy="468" rx="42" ry="48" fill="#EBC39E"/>
+    <ellipse cx="518" cy="468" rx="42" ry="48" fill="#EBC39E"/>
+    <ellipse cx="480" cy="552" rx="126" ry="108" fill="#F7D9B8"/>
+    <ellipse cx="431" cy="532" rx="16" ry="20" fill="#15313B"/>
+    <ellipse cx="529" cy="532" rx="16" ry="20" fill="#15313B"/>
+    <ellipse cx="480" cy="566" rx="24" ry="18" fill="#15313B"/>
+    <path d="M465 588C478 599 492 599 505 588" stroke="#15313B" stroke-width="10" stroke-linecap="round"/>
+    <path d="M376 592C389 610 406 618 423 620" stroke="#C68962" stroke-width="10" stroke-linecap="round"/>
+    <path d="M584 592C571 610 554 618 537 620" stroke="#C68962" stroke-width="10" stroke-linecap="round"/>
+    <path d="M378 642C395 674 424 694 454 700" stroke="#C68962" stroke-width="10" stroke-linecap="round"/>
+    <path d="M582 642C565 674 536 694 506 700" stroke="#C68962" stroke-width="10" stroke-linecap="round"/>
+    <path d="M417 630C430 644 448 651 468 652" stroke="#C68962" stroke-width="10" stroke-linecap="round"/>
+    <path d="M543 630C530 644 512 651 492 652" stroke="#C68962" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g>
+    <rect x="234" y="770" width="492" height="114" rx="28" fill="#FFFFFF" stroke="#D9E7EA" stroke-width="2"/>
+    <circle cx="290" cy="826" r="22" fill="#8FD9E1"/>
+    <rect x="332" y="804" width="238" height="16" rx="8" fill="#DCE7EA"/>
+    <rect x="332" y="834" width="164" height="12" rx="6" fill="#E8EFF1"/>
+    <rect x="604" y="800" width="78" height="52" rx="18" fill="#FDE7DF"/>
+    <path d="M620 828H666" stroke="#D57B56" stroke-width="8" stroke-linecap="round"/>
+    <path d="M636 812L652 828L636 844" stroke="#D57B56" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
