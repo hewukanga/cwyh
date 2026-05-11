@@ -244,6 +244,10 @@ export default function Home() {
               <span>预约时间</span>
               <input type="date" />
             </label>
+            <label>
+              <span>期望到店时间</span>
+              <input type="time" />
+            </label>
             <label className="full">
               <span>补充说明</span>
               <textarea rows={4} placeholder="例如：体型、毛量、敏感部位或其他需要注意的事项" />
